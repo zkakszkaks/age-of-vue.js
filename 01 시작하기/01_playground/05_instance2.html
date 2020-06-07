@@ -1,0 +1,22 @@
+<script>
+  function Person(name, job) { // 생성자 함수, 함수 이름으 대문자로 시작한다. 생성자함수다.
+    this.name = name;
+    this.job = job;
+  }
+
+  var p = new Person('josh', 'developer');
+
+  console.log(p); // Person {name: "josh", job: "developer"}
+
+  //
+
+  function Vue() {
+    this.logText = function() {
+      console.log('hello');
+    }
+  }
+
+  var vm = new Vue();
+
+  vm.logText(); // hello
+</script>

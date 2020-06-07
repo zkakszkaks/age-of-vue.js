@@ -1,0 +1,42 @@
+<!--
+  인스턴스에서 사용할 수 있는 속성과 API는 다음과 같습니다.
+  new Vue({
+    el: ,
+    template: ,l;
+
+    data: ,
+    method: ,
+    created: ,
+    watch: ,
+  });
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+
+    let vm = new Vue({
+      el: '#app',
+      data: {
+        message: 'hi'
+      },
+      methods: {
+
+      },
+      created: function() {
+
+      }
+    });
+
+  </script>
+</body>
+</html>

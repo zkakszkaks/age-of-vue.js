@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+
+    /*
+      body 태그안에서 #app 이라는 태그를 찾아서 인스턴스를 붙이겠다.
+      let vm = new Vue({
+        el: '#app'
+      });
+    */
+    let vm = new Vue({
+      el: '#app',
+      data: {
+        message: 'hi'
+      }
+    });
+
+    // 다음 시간에는 왜 인스턴스를 생성해서 사용하는지
+    // 생성자 함수와 함께 알아본다.
+
+  </script>
+</body>
+</html>
